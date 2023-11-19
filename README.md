@@ -63,6 +63,14 @@ install lynx in CONM22CS015_03 and navigate to [http://CONM22CS015_01](http://CO
 lynx http://CONM22CS015_01
 
 ```
+Access Web Application from Host:
+
+To access the web application from your host machine, open a web browser and navigate to the following URL:
+```bash
+http://172.31.41.252:8080
+```
+
+Make sure that the containers are running without errors, and the necessary ports are mapped correctly.
 
 ## Network Configuration
 
