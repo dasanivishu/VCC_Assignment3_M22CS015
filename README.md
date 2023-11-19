@@ -69,6 +69,7 @@ To access the web application from your host machine, open a web browser and nav
 ```bash
 http://172.31.41.252:8080
 ```
+change 172.31.41.252 with IP address of host machine
 
 Make sure that the containers are running without errors, and the necessary ports are mapped correctly.
 
