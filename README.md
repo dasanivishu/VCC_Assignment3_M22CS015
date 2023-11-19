@@ -1,5 +1,5 @@
 
-```markdown
+
 # Dockerized Web Application Setup
 
 This repository contains a Dockerized setup for a web application with three containers. Follow the steps below to build and run the containers.
@@ -58,7 +58,11 @@ docker exec -it CONM22CS015_03 /bin/bash
 
 ## View Web Application
 
-Open a web browser and navigate to [http://CONM22CS015_01](http://CONM22CS015_01) to view the web application.
+install lynx in CONM22CS015_03 and navigate to [http://CONM22CS015_01](http://CONM22CS015_01) to view the web application.
+```bash
+lynx http://CONM22CS015_01
+
+```
 
 ## Network Configuration
 
@@ -80,7 +84,6 @@ docker rm CONM22CS015_01 CONM22CS015_02 CONM22CS015_03
 docker network rm vishal
 ```
 
-Feel free to modify the commands and configurations according to your specific requirements.
-```
+
 
 
