@@ -63,6 +63,8 @@ install lynx in CONM22CS015_03 and navigate to [http://CONM22CS015_01](http://CO
 lynx http://CONM22CS015_01
 
 ```
+![Output](https://github.com/dasanivishu/VCC_Assignment3_M22CS015/blob/main/container3.png)
+
 Access Web Application from Host:
 
 To access the web application from your host machine, open a web browser and navigate to the following URL:
@@ -70,6 +72,8 @@ To access the web application from your host machine, open a web browser and nav
 http://172.31.41.252:8080
 ```
 change 172.31.41.252 with IP address of host machine
+
+![Output](https://github.com/dasanivishu/VCC_Assignment3_M22CS015/blob/main/host.png)
 
 Make sure that the containers are running without errors, and the necessary ports are mapped correctly.
 
